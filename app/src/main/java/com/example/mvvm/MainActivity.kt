@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        // Variaveis
+        // Variáveis
         this.mContext = this
         this.mMainViewModel = ViewModelProvider(this).get(MainViewModel::class.java)
 
